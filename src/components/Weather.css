@@ -1,0 +1,114 @@
+.weather-card {
+width: 300px;
+border-radius: 15px;
+padding: 20px;
+box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+color: white;
+position: relative;
+}
+
+.weather-card.default {
+background: linear-gradient(to bottom right, #4a90e2, #5a9eef);
+}
+
+.weather-card.cold {
+background: linear-gradient(to bottom right, #4a90e2, #5a9eef);
+}
+
+.weather-card.cool {
+background: linear-gradient(to bottom right, #4caf50, #8bc34a);
+}
+
+.weather-card.warm {
+background: linear-gradient(to bottom right, #ffc107, #ff9800);
+}
+
+.weather-card.hot {
+background: linear-gradient(to bottom right, #ff5722, #f44336);
+}
+
+.current-time {
+position: absolute;
+top: 15px;
+right: 15px;
+font-size: 0.9rem;
+}
+
+.card-content {
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+}
+
+.search-form {
+position: center;
+margin-top: 20px;
+margin-bottom: 20px;
+width: 100%;
+}
+
+.search-input {
+width: 90%;
+padding: 10px 15px;
+border-radius: 20px;
+border: none;
+background-color: rgba(255, 255, 255, 0.2);
+color: white;
+}
+
+.search-input::placeholder {
+color: rgba(255, 255, 255, 0.7);
+}
+
+.search-button {
+position: absolute;
+right: 10px;
+top: 50%;
+transform: translateY(-50%);
+background: none;
+border: none;
+color: white;
+cursor: pointer;
+}
+
+.weather-info {
+margin-bottom: 20px;
+}
+
+.city-name {
+font-size: 1.5rem;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.temperature {
+font-size: 2.5rem;
+font-weight: bold;
+margin-bottom: 10px;
+}
+
+.description {
+margin-bottom: 20px;
+}
+
+.weather-data {
+display: flex;
+justify-content: space-between;
+width: 100%;
+}
+
+.col {
+text-align: center;
+}
+
+.col p {
+font-size: 1.2rem;
+font-weight: bold;
+margin-bottom: 5px;
+}
+
+.col span {
+font-size: 0.9rem;
+}
+
